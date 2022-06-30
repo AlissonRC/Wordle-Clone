@@ -8,7 +8,6 @@
   pointer-events: none;
 }
 
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -20,7 +19,6 @@
   color: white;
 }
 
-
 button {
   font-size: calc(10px + 2vmin);
 }
@@ -30,8 +28,6 @@ button {
   grid-template-columns: repeat(5, 1fr);
   column-gap: 10px;
   row-gap: 50px;
-
-
 }
 
 .quadrado {
@@ -39,13 +35,13 @@ button {
   border-radius: 0.5rem;
   background-color: white;
   height: 58px;
-  min-Width: 43px;
+  min-width: 43px;
   margin: 0 6px 10px 0;
   padding: 1px 6px;
   color: black;
-  font-Weight: bold;
-  font-Size: 1.875rem;
-  justify-Content: center;
+  font-weight: bold;
+  font-size: 1.875rem;
+  justify-content: center;
   display: flex;
   align-items: center;
 }
@@ -55,28 +51,26 @@ button {
   background-color: #818384;
   border-radius: 0.5rem;
   height: 58px;
-  min-Width: 43px;
+  min-width: 43px;
   margin: 0 6px 10px 0;
   padding: 1px 6px;
   cursor: pointer;
   color: black;
-  font-Weight: bold;
-  font-Size: 14px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .tecla:hover {
   background-color: #b4b4b4;
   color: white;
   border: solid 2px #adadad;
-
-
 }
 
 .game-over {
   text-transform: uppercase;
   font-weight: bold;
   position: absolute;
-  background-color: white;
+  background-color: #111827;
   left: 0;
   right: 0;
   top: 25%;
@@ -84,15 +78,17 @@ button {
   margin-right: auto;
   width: 345px;
   padding: 24px;
-  border: solid 4px;
-  border-color: crimson;
+  border: solid 2px;
+  border-color: red;
+  color: white;
+  border-radius: 0.5rem;
 }
 
 .game-win {
   text-transform: uppercase;
   font-weight: bold;
   position: absolute;
-  background-color: white;
+  background-color: #111827;
   left: 0;
   right: 0;
   top: 25%;
@@ -100,15 +96,17 @@ button {
   margin-right: auto;
   width: 345px;
   padding: 24px;
-  border: solid 4px;
-  border-color: green;
+  border: solid 2px;
+  border-color: #22c55e;
+  color: white;
+  border-radius: 0.5rem;
 }
 
 .short-word {
   display: flex;
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #BE123C;
+  background-color: #be123c;
   margin-left: auto;
   margin-right: auto;
   width: 345px;
@@ -118,11 +116,20 @@ button {
   border-radius: 0.5rem;
   text-align: center;
 }
-.close{
+.close {
   background-color: transparent;
   border: none;
   cursor: pointer;
   margin-left: auto;
   color: white;
   padding: 0;
+}
+
+.new-game-button {
+  color: white;
+  border-radius: 0.5rem;
+  background-color: #22c55e;
+  font-size: medium;
+  font-weight: bold;
+  padding: 8px;
 }
