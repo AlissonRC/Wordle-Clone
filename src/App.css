@@ -132,4 +132,8 @@ button {
   font-size: medium;
   font-weight: bold;
   padding: 8px;
+  cursor: pointer;
+}
+.new-game-button:hover {
+  background-color: #2be770;
 }
